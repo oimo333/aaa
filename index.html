@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Salon Ocean</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+
+    <!-- 簡易スライドショー用 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".slider").bxSlider({
+          auto: true,
+          pause: 5000, // 画像がスライドするスピード
+          slideWidth: 950, // 画像の横幅
+        });
+      });
+    </script>
+    <!-- スライドショーここまで -->
+  </head>
+  <body>
+    <div id="wrapper">
+      <!-- ヘッダーここから -->
+      <header class="page-header">
+        <h1>
+          <a href="index.html"
+            ><img
+              src="images/Salon-Oceanlogo-2.png"
+              alt="サロンオーシャンホーム"
+            />
+          </a>
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="staff.html">Staff</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="info.html">Info</a></li>
+            <li><a href="contact.html">Reservation＆Contact</a></li>
+          </ul>
+        </nav>
+        <!-- <div class="clear"></div> -->
+      </header>
+      <!-- ヘッダーここまで -->
+      <!-- メイン画像ここから -->
+
+      <!-- 簡易スライダー -->
+
+      <div class="slider">
+        <img src="images/mainimage.jpg" alt="海の画像" />
+        <img src="images/mainimage1.jpg" alt="海と女性の画像" />
+        <img src="images/mainimage2.jpg" alt="海と女性の画像２" />
+        <img src="images/mainimage3.jpg" alt="女性の画像" />
+      </div>
+
+      <!-- 簡易スライダーここまで -->
+
+      <!-- 左ここから -->
+      <div id="left" class="box-shadow">
+        <h2>News</h2>
+        <ul>
+          <li><span>2024.06.09</span>タイトルが入ります。タイトルが入ります</li>
+          <li><span>2024.06.09</span>タイトルが入ります。タイトルが入ります</li>
+          <li><span>2024.06.09</span>タイトルが入ります。タイトルが入ります</li>
+          <li><span>2024.06.09</span>タイトルが入ります。タイトルが入ります</li>
+          <li><span>2024.06.09</span>タイトルが入ります。タイトルが入ります</li>
+          <li><span>2024.06.09</span>タイトルが入ります。タイトルが入ります</li>
+          <li><span>2024.06.09</span>タイトルが入ります。タイトルが入ります</li>
+          <li><span>2024.06.09</span>タイトルが入ります。タイトルが入ります</li>
+          <li><span>2024.06.09</span>タイトルが入ります。タイトルが入ります</li>
+        </ul>
+      </div>
+      <!-- 左ここまで -->
+
+      <!-- 右ここから -->
+      <!-- 右ここから -->
+      <div id="right">
+        <ul>
+          <!-- <li class="box-shadow">
+            <a id="contact" href="index.html">Home</a>
+          </li> -->
+          <li class="box-shadow_menu">
+            <a id="contact" href="staff.html">Staff</a>
+          </li>
+          <li class="box-shadow_menu">
+            <a id="contact" href="menu.html">Menu</a>
+          </li>
+          <li class="box-shadow_menu">
+            <a id="contact" href="info.html">Info</a>
+          </li>
+          <li class="box-shadow_menu">
+            <a id="contact" href="contact.html">Reservation＆Contact</a>
+          </li>
+        </ul>
+      </div>
+      <!-- 右ここまで -->
+      <div class="clear"></div>
+    </div>
+    <!-- #wrapper -->
+
+    <!-- フッターここから -->
+
+    <footer>
+      <p>Copyright (C) 2015-2024 Campus inc. All Right Reserved.</p>
+    </footer>
+
+    <!-- フッターここまで -->
+  </body>
+</html>
